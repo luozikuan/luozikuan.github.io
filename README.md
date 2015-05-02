@@ -1,53 +1,35 @@
-# Autm-rb
-Another theme for jekyll.
-based on shiori and midnight
+# Simpleyyt
 
-features:
+My blog based on Jekyll-Bootstrap.
 
-- github, stackoverflow, twitter links
-- sharebuttons: twitter, facebook, google plus
-- comments via DISQUS
-- google analitics
-- pagination
-- tags
-- codehighlighting
-- bootstrap components
-- font awesome
-- responsive
-- embeded video support
-- cool colors
+## About Jekyll-Bootstrap
 
-#### Contribution
-Pull Requests always welcome.
+For all usage and documentation please see: <http://jekyllbootstrap.com>
 
-## Screens
+## About theme
 
-![](http://i.imgur.com/i1OZoFF.png)
-![](http://i.imgur.com/oc2ZfjH.png)
+This theme is the copy of [elementaryOS](http://elementaryos.org) portal page. Some features are imperfect, but I will make it more perfect.
 
-## Installation
+## Usage
 
-- [Fork this repository][fork]
-- Clone it: `git clone https://github.com/YOUR-USER/autm-rb`
-- Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
-- Run the jekyll server: `jekyll serve` or `bundle exec jekyll serve`
+You can edit the `_config.yml` file to change the setting of site. If you want to change avatar or favicon, just replace the files in `assets\themes\Snail\img`.
 
-## Customization
+## About excerpt
 
-Edit this files before using 
- 
-- _config.yml REQUIRED
-- /index.html - change the default image and email
-- /projects.html - here you can share some of your projects
-- /resume.html - write something about you
-- /favicon.ico change it or leave the existing one
-- _includes/title.html REQUIRED
+There are 2 ways of excerpt: "teaser" and "truncate_words" (Configurated in _config.yml).
 
-## Licensing
+ * "teaser": look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
+You must place "<!--more-->" at paragraph in post. The whole content will be displayed in homepage if no More tag found in post.
 
-[MIT](https://github.com/railsr/autm-rb/blob/master/LICENSE) Feel free to use and edit.
+ * "truncate_words": generate an excerpt automatically by selecting the first 20 words of the post. It doesn't work well in some of no-English post.
 
+## Change Log
 
-[pages]: http://pages.github.com
-[fork]: https://github.com/railsr/autm-rb/fork
-[blog]: http://railsr.github.io/
+ * Add pagination.
+ * Add new way of excerpt.
+ * Download google fonts to the local.
+ * Add google custom search engine.
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)

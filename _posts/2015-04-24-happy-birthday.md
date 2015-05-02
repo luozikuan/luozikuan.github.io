@@ -1,10 +1,10 @@
 ---
 title: 生日快乐
-tags: [生快, birthday]
+tags: [生活]
 ---
 祝你生日快乐~  
 祝你生日快乐~  
 祝你生日快乐~额~  
 祝你生日快乐~  
-{{page.date | date_to_string }}
 
+{{page.date | date_to_string }}

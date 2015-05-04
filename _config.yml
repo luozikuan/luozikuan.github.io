@@ -127,7 +127,7 @@ JB :
   comments :
     provider : disqus
     duoshuo :
-      short_name : shortname
+      short_name : luo
     disqus :
       short_name : luozikuan
     livefyre :

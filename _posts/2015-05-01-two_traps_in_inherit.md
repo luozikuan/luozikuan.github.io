@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
 ```
 In Derived::func(Base param)
 ```
+
 由这个结果可以看出来，虚函数虽然会运行正确的函数，但是默认参数却只能从当前指针对应的类中去取，此处使用的Base对应的指针在运行func函数，所以取出的默认参数是Base::func()的默认参数。
 
 ## 你的子类实例正确析构了吗？

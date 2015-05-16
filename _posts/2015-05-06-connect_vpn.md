@@ -20,73 +20,73 @@ VPN有很多种，常见的有PPTP，IpSec，OpenVPN等。以下用PPTP为例说
 
 ### windows 8
 1. 鼠标悬停在屏幕右上或者右下角，然后点击“搜索”；
-	![]({{site.images_path}}/vpn/windows/01.png)
+	![]({{site.images_path}}/vpn/windows/01.jpg)
 2. 在搜索框中输入“vpn”，在结果中选择“管理虚拟专用网络”；
- 	![]({{site.images_path}}/vpn/windows/02.png)
+ 	![]({{site.images_path}}/vpn/windows/02.jpg)
 3. 点击右边的“添加VPN连接”；
-	![]({{site.images_path}}/vpn/windows/03.png)
+	![]({{site.images_path}}/vpn/windows/03.jpg)
 4. 填完这一页的基本信息。
 	1. “VPN提供商”选择“Microsoft”；
 	2. “连接名称”随意；
 	3. “用户名”和“密码”填上自己的账号密码。
 	4. 点击“保存”。
 	
-	![]({{site.images_path}}/vpn/windows/04.png)
+	![]({{site.images_path}}/vpn/windows/04.jpg)
 5. 现在VPN标签下已经有了刚才添加的那条记录；
-	![]({{site.images_path}}/vpn/windows/05.png)
+	![]({{site.images_path}}/vpn/windows/05.jpg)
 6. 退出到桌面，点击右下角的网络图标，选中刚才添加的VPN，点击连接；
-	![]({{site.images_path}}/vpn/windows/06.png)
+	![]({{site.images_path}}/vpn/windows/06.jpg)
 7. 连接后可能会出现691的错误，如果没有出现，那此连接就已经可以用了；
-	![]({{site.images_path}}/vpn/windows/07.png)
+	![]({{site.images_path}}/vpn/windows/07.jpg)
 8. 如果上一步出现了错误691，则*右击*右下角的网络图标，选择“打开网络和共享中心”；
-	![]({{site.images_path}}/vpn/windows/08.png)
+	![]({{site.images_path}}/vpn/windows/08.jpg)
 9. 点击左边的“更改适配器设置”；
-	![]({{site.images_path}}/vpn/windows/09.png)
+	![]({{site.images_path}}/vpn/windows/09.jpg)
 10. 在刚才添加的VPN连接上*右击*，选择“属性”；
- 	![]({{site.images_path}}/vpn/windows/10.png)
+ 	![]({{site.images_path}}/vpn/windows/10.jpg)
 11. 点击上边的“安全”标签页，将“VPN协议类型”选为“PPTP”；
-	![]({{site.images_path}}/vpn/windows/11.png)
+	![]({{site.images_path}}/vpn/windows/11.jpg)
 12. “数据加密”选“最大强度……”；
-	![]({{site.images_path}}/vpn/windows/12.png)
+	![]({{site.images_path}}/vpn/windows/12.jpg)
 13. “身份验证”选择“允许使用这些协议”，然后勾选下方的“MS-CHAP v2”。改完后点“确定”；
-	![]({{site.images_path}}/vpn/windows/13.png)
+	![]({{site.images_path}}/vpn/windows/13.jpg)
 14. 再次执行第7步，此时应该可以连接上了。
-	![]({{site.images_path}}/vpn/windows/14.png)
+	![]({{site.images_path}}/vpn/windows/14.jpg)
 
 ### ubuntu 14.04
 1. 点击右上角的“网络连接” -> "VPN connections" -> "configure VPN"；
-	![]({{site.images_path}}/vpn/linux/01.png)
+	![]({{site.images_path}}/vpn/linux/01.jpg)
 2. 在弹出的页面右边点击"Add"；
-	![]({{site.images_path}}/vpn/linux/02.png)
+	![]({{site.images_path}}/vpn/linux/02.jpg)
 3. 选择添加的网络类型为"PPTP"；
-	![]({{site.images_path}}/vpn/linux/03.png)
+	![]({{site.images_path}}/vpn/linux/03.jpg)
 4. 填上正确的"gateway", "User name"和"Password"；
-	![]({{site.images_path}}/vpn/linux/04.png)
+	![]({{site.images_path}}/vpn/linux/04.jpg)
 5. 点击"Advanced"，将设置改到跟图片一模一样；
-	![]({{site.images_path}}/vpn/linux/05.png)
+	![]({{site.images_path}}/vpn/linux/05.jpg)
 6. 点击"Save"保存连接；
-	![]({{site.images_path}}/vpn/linux/06.png)
+	![]({{site.images_path}}/vpn/linux/06.jpg)
 7. 点击右上角的“网络连接” -> "VPN connections" -> 刚才的网络连接 即可连接；
-	![]({{site.images_path}}/vpn/linux/07.png)
+	![]({{site.images_path}}/vpn/linux/07.jpg)
 8. 连接成功后网络连接图标会出现一把锁。
-	![]({{site.images_path}}/vpn/linux/08.png)
+	![]({{site.images_path}}/vpn/linux/08.jpg)
 
 ### Mac OS X 10.10
 1. 点击右上角的放大镜打开spotlight，输入“网络”，在结果中找到“系统偏好设置”分组下的“网络”，点击进入；
-	![]({{site.images_path}}/vpn/mac/01.png)
+	![]({{site.images_path}}/vpn/mac/01.jpg)
 2. 点击左下角的“+”新建一个网络连接；
-	![]({{site.images_path}}/vpn/mac/02.png)
+	![]({{site.images_path}}/vpn/mac/02.jpg)
 3. 在弹出的窗口中，“接口”填“VPN”，“VPN类型”选“PPTP”，“服务器名称”随意填；
-	![]({{site.images_path}}/vpn/mac/03.png)
+	![]({{site.images_path}}/vpn/mac/03.jpg)
 4. 在弹出来的界面中填上“服务器地址”，“账户名称”，“加密”选“最大”；
-	![]({{site.images_path}}/vpn/mac/04.png)
+	![]({{site.images_path}}/vpn/mac/04.jpg)
 5. 点击“鉴定设置”并输入用户密码；
-	![]({{site.images_path}}/vpn/mac/05.png)
+	![]({{site.images_path}}/vpn/mac/05.jpg)
 6. 点击“高级”，勾选上“通过VPN连接发送所有流量”；
-	![]({{site.images_path}}/vpn/mac/06.png)
+	![]({{site.images_path}}/vpn/mac/06.jpg)
 7. 勾选上“在菜单栏中显示VPN状态”；
-	![]({{site.images_path}}/vpn/mac/07.png)
+	![]({{site.images_path}}/vpn/mac/07.jpg)
 8. 点击右上角的“VPN状态”图标并连接刚才添加的VPN；
-	![]({{site.images_path}}/vpn/mac/08.png)
+	![]({{site.images_path}}/vpn/mac/08.jpg)
 9. 成功连接后会出现计时。
-	![]({{site.images_path}}/vpn/mac/09.png)
+	![]({{site.images_path}}/vpn/mac/09.jpg)

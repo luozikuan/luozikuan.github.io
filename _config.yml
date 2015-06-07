@@ -71,8 +71,9 @@ auto_loadmore : true
 #
 production_url : http://luozikuan.github.io
 
-# images path in post
+# images or attachments path in post
 images_path : /images
+attachments_path : /attachments
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

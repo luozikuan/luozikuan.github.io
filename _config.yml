@@ -27,9 +27,7 @@ contact :
 # Links showed on the footer
 #
 links :
-  Zikuan's Blog : http://luozikuan.github.io/
-  JavaTalk : http://www.zhouhaocheng.cn/
-  yzhang : http://zhangyi.pw/
+  Zikuan's Blog : https://luozikuan.github.io/
 
 # The search engine. Only support google custom search engine.
 #
